@@ -16,6 +16,11 @@ body {
     padding-right: 100px;
 }
 
+.hero-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -48,6 +53,7 @@ a {
 button,
 .footer {
     background-color:#3882f6;
+    color: white;
 }
 
 .content,
@@ -57,8 +63,10 @@ button,
 }
 
 .footer{
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 30px 60px 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
 }
 
 .word {
@@ -66,11 +74,81 @@ button,
     font-size:36px;
     color:#1f2937;
     font-style: italic;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 50px 200px 50px 200px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
+    flex:1;
+    justify-content: center;
+    padding:30px;
+}
+
+img {
+    width: 100%;
+    height:100%;
+    border-radius: 25px;
+    border: 2px solid #3882f6;
+    padding: 0px;
+    width: 150px;
+    height: 150px;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color:#1f2937;
+    margin-bottom: 30px;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+button {
+    border-radius: 5px;
+    margin: 10px;
+    margin-left:0;
+    border: none;
+    box-shadow: none;
+}
+
+.name {
+    text-align: end;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.right {
+    border-radius: 0px;
+    border: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #e5e7eb;
+}
+
+.call {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.fansonly {
+    font-size: 15px;
+}
+
+.two {
+    border: 2px solid white;
 }
